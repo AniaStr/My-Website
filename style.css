@@ -18,6 +18,13 @@
     padding-right: 18px;
 }
 
+.active {
+    background-color: #66bfbf;
+    transition: 0.3 ease background-color;
+
+
+}
+
 .nav-link {
     font-size: 1.2rem;
     font-family: 'Montserrat-Bold';
@@ -29,6 +36,7 @@ h1 {
     font-family: 'Sacramento', cursive;
     font-size: 100px;
     color: #66bfbf;
+    text-align: center;
 }
 
 h2 {
@@ -42,10 +50,14 @@ h2 {
 h3 {
     color: #11999e;
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 a {
-    color: #11999e;
+    color: #0d3f41;
 }
 
 hr {
@@ -120,11 +132,12 @@ hr {
 .contact-button {
     background-color: #66bfbf;
     border-radius: 47px;
-    color: #ffffff;
+    color: #0c0c0c;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     margin: 30px auto;
+    border-style: none;
 }
 
 a.footer-link {
@@ -142,12 +155,12 @@ a:hover {
 
 .bottom-name {
     color: white;
-    font-size: 10px;
+    font-size: 15px;
     margin-top: 30px;
 }
 
 .bottom-container a {
-    color: #11999e;
+    color: #0c0c0c;
     font-family: 'Montserrat', sans-serif;
     padding-left: 10px;
     padding-right: 10px;
@@ -179,4 +192,9 @@ a:hover {
 
 #skills {
     padding-top: 8%;
+}
+
+.my-mountain {
+    width: 20%;
+    text-align: center;
 }
