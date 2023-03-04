@@ -2,6 +2,9 @@
   margin: 0;
   font-family: 'Merriweather', serif;
 } */
+html {
+    scroll-behavior: smooth;
+}
 
 .navbar-brand {
     font-family: 'Ubuntu';
@@ -14,8 +17,10 @@
 }
 
 .nav-item {
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 18px;
+    margin-right: 18px;
 }
 
 .active {
@@ -28,6 +33,7 @@
 .nav-link {
     font-size: 1.2rem;
     font-family: 'Montserrat-Bold';
+    padding: 0px 18px 0px 18px;
 }
 
 
