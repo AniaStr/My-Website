@@ -1,9 +1,9 @@
-/* body {
-  margin: 0;
-  font-family: 'Merriweather', serif;
-} */
 html {
     scroll-behavior: smooth;
+}
+
+.main_h1 {
+    margin-bottom: 20px;
 }
 
 .navbar-brand {
@@ -40,7 +40,7 @@ html {
 h1 {
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
-    font-size: 100px;
+    font-size: 3rem;
     color: #66bfbf;
     text-align: center;
 }
@@ -67,15 +67,14 @@ a {
 }
 
 hr {
-    border: none;
-    border-top: 10px dotted;
     color: #eaf6f6;
-    width: 10%;
+    width: 30%;
     margin: 100px auto;
+    border-top: 10px dashed
 }
 
 .profile {
-    width: 30%;
+    width: 40%;
     margin: 100px auto;
     line-height: 2;
 }
@@ -83,8 +82,9 @@ hr {
 .top-container {
     background-color: #eafdfc;
     position: relative;
-    padding-top: 70px;
+    padding-top: 130px;
     text-align: center;
+
 }
 
 .middle-container {
@@ -110,7 +110,7 @@ hr {
 .top-cloud {
     position: absolute;
     right: 300px;
-    top: 90px;
+    top: 60px;
     padding-bottom: 5%;
 }
 
@@ -135,15 +135,15 @@ hr {
     padding-left: 30px;
 }
 
-.contact-button {
-    background-color: #66bfbf;
-    border-radius: 47px;
+
+.btn {
+    background: #66bfbf none repeat scroll 0 0;
+    border: 1px solid #66bfbf;
     color: #0c0c0c;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
+    outline: medium none;
+    padding: 15px;
     text-decoration: none;
-    margin: 30px auto;
-    border-style: none;
+    border-radius: 47px;
 }
 
 a.footer-link {
@@ -153,6 +153,7 @@ a.footer-link {
 
 a:hover {
     color: pink;
+    text-decoration: none;
 }
 
 .bottom-container a:hover {
@@ -188,7 +189,6 @@ a:hover {
 }
 
 .about-me-text {
-    /* margin-top: 10%; */
     padding-top: 10%;
 }
 
@@ -203,4 +203,186 @@ a:hover {
 .my-mountain {
     width: 20%;
     text-align: center;
+}
+
+
+.mountain {
+    width: 30%;
+    height: 0%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.p_ask {
+    margin-bottom: 70px;
+}
+
+@media (min-device-width: 481px) and (max-device-width: 768px) {
+
+    .top-container {
+        background-color: #eafdfc;
+        position: relative;
+        padding-top: 70px;
+        text-align: center;
+    }
+
+    .profile {
+        width: 60%;
+        margin: 50px auto;
+        line-height: 2;
+    }
+
+    .my-photo {
+        width: 50%;
+    }
+
+    .skill-row {
+        width: 60%;
+        margin: 100px auto;
+        text-align: left;
+        line-height: 2;
+    }
+
+    .skill1-image {
+        width: 40%;
+        height: 40%;
+        float: left;
+        padding-right: 30px;
+    }
+
+    .skill2-image {
+        width: 40%;
+        height: 40%;
+        float: right;
+        padding-left: 30px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        color: #66bfbf;
+        font-weight: normal;
+        text-align: center;
+
+    }
+
+
+
+    .bottom-cloud {
+
+        display: none;
+    }
+
+    .mountain {
+        height: 50%;
+        width: 50%;
+    }
+
+    .top-cloud {
+        position: absolute;
+        right: 15%;
+        top: 10%;
+        padding-bottom: 15%;
+        size: 70%;
+    }
+
+    .contact-me h2 {
+        font-weight: bolder;
+    }
+}
+
+
+@media (max-device-width: 480px) {
+
+    .profile {
+        width: 60%;
+        margin: 20px auto;
+        line-height: 2;
+    }
+
+    .my-photo {
+        width: 60%;
+        padding-top: 30px;
+    }
+
+
+    .skill-row {
+        width: 60%;
+        margin: 100px auto;
+        text-align: left;
+        line-height: 2;
+    }
+
+    .skill1-image {
+        width: 40%;
+        height: 40%;
+        padding-left: auto;
+        padding-right: auto;
+        text-align: center;
+    }
+
+    .skill2-image {
+        width: 40%;
+        height: 40%;
+        padding-left: auto;
+        padding-right: auto;
+        padding-top: 20px;
+        text-align: center;
+
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+        color: #66bfbf;
+        font-weight: normal;
+        text-align: center;
+
+    }
+
+
+
+    .bottom-cloud {
+
+        display: none;
+    }
+
+    .mountain {
+        height: 40%;
+        width: 40%;
+    }
+
+    .top-cloud {
+        position: absolute;
+        right: 15%;
+        top: 10%;
+        padding-bottom: 15%;
+        size: 50%;
+    }
+
+    .contact-me h2 {
+        font-weight: bolder;
+    }
+
+    .skill-row {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        width: 70%;
+    }
+
+    hr {
+        margin: 60px auto;
+    }
+
 }
