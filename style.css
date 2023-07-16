@@ -200,6 +200,11 @@ a:hover {
     padding-top: 8%;
 }
 
+.bold_links {
+    font-weight: 500;
+    color: #0d3f41;
+}
+
 .my-mountain {
     width: 20%;
     text-align: center;
